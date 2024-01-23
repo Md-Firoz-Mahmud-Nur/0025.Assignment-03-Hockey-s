@@ -18,6 +18,9 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              "button-main": "#FF4240",
+              "black-main": "#131318",
+
             },
           },
         },
@@ -36,10 +39,297 @@
         font-family: "Manrope", sans-serif;
       }
     </style>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/1f1ba2eaf1.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="font-manrope">
-    <header class="container mx-auto">b</header>
-    <main class="container mx-auto">a</main>
+    <header class="container mx-auto relative">
+      <!-- navbar -->
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-bold"
+            >
+              <li><a class="text-button-main">Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost gap-0 font-extrabold text-4xl pl-0"
+            >Hockey<span class="text-button-main">’</span>s</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-bold">
+            <li><a class="text-button-main">Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-6">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a class="btn bg-button-main text-white hover:text-black"
+            >Get Ticket</a
+          >
+        </div>
+      </div>
+      <!-- Banner content -->
+      <div class="carousel w-full my-14">
+        <!-- Slide 1 -->
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="image/1.png" class="w-full" />
+          <div
+            class="absolute flex gap-4 transform sm:translate-x-1/2 lg:translate-x-0 -translate-y-1/2 left-5 right-5 bottom-0"
+          >
+            <a
+              href="#slide2"
+              class="btn btn-circle text-white bg-black hover:text-black border-none"
+              >❮</a
+            >
+            <a
+              href="#slide2"
+              class="btn btn-circle text-white bg-black hover:text-black border-none"
+              >❯</a
+            >
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="image/4.png" class="w-full" />
+          <div
+            class="absolute flex gap-4 transform -translate-y-1/2 left-5 right-5 bottom-0"
+          >
+            <a
+              href="#slide1"
+              class="btn btn-circle text-white bg-black hover:text-black border-none"
+              >❮</a
+            >
+            <a
+              href="#slide1"
+              class="btn btn-circle text-white bg-black hover:text-black border-none"
+              >❯</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- banner text -->
+      <div
+        class="sm:relative lg:absolute transform -translate-y-1/2 right-5  -bottom-0 "
+      >
+        <!--text -->
+        <div
+          class="bg-[#131318] text-white relative p-8 max-w-[566px] rounded-2xl"
+        >
+          <h3 class="text-2xl font-extrabold mb-4">
+            Meet all the heroes from the field
+          </h3>
+          <p>
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+      </div>
+    </header>
+    <main class="container mx-auto">
+      <!-- Professional Hockeys Club -->
+      <section>
+        <!-- Heading -->
+        <div
+          class="flex flex-col items-center border-dashed border-y-2 py-12 border-[#13131221]"
+        >
+          <h3 class="font-extrabold text-4xl">Professional Hockeys Club</h3>
+          <p class="font-medium mt-6">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+
+        <!-- Progress Circle -->
+        <div class="flex flex-row my-12 gap-8 ">
+          <!-- Progress Circle card-1 -->
+          <div class="flex flex-col items-center   ">
+            <div
+              class="radial-progress text-button-main rotate-90 mb-6  "
+              style="--value:87;"
+              role="progressbar"
+            >
+              <div
+                class="-rotate-90 text-2xl font-extrabold text-black-main p-7"
+              >
+                87%
+              </div>
+            </div>
+            <h3 class="font-semibold text-xl text-[#131318] mb-4 ">
+              Prayer Facility
+            </h3>
+            <p class="text-[#131318] opacity-60 text-center">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <!-- Progress Circle card-2 -->
+          <div class="flex flex-col items-center   ">
+            <div
+              class="radial-progress text-[#49D293] rotate-90 mb-6  "
+              style="--value:95;"
+              role="progressbar"
+            >
+              <div
+                class="-rotate-90 text-2xl font-extrabold text-black-main p-7"
+              >
+                95%
+              </div>
+            </div>
+            <h3 class="font-semibold text-xl text-[#131318] mb-4 ">
+              Experienced Coach
+            </h3>
+            <p class="text-[#131318] opacity-60 text-center">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <!-- Progress Circle card-3 -->
+          <div class="flex flex-col items-center   ">
+            <div
+              class="radial-progress text-[#FFB546] rotate-90 mb-6  "
+              style="--value:90;"
+              role="progressbar"
+            >
+              <div
+                class="-rotate-90 text-2xl font-extrabold text-black-main p-7"
+              >
+                90%
+              </div>
+            </div>
+            <h3 class="font-semibold text-xl text-[#131318] mb-4 ">
+              Senior Player
+            </h3>
+            <p class="text-[#131318] opacity-60 text-center">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <!-- Progress Circle card-4 -->
+          <div class="flex flex-col items-center   ">
+            <div
+              class="radial-progress text-[#4C8DF1] rotate-90 mb-6  "
+              style="--value:80;"
+              role="progressbar"
+            >
+              <div
+                class="-rotate-90 text-2xl font-extrabold text-black-main p-7"
+              >
+                80%
+              </div>
+            </div>
+            <h3 class="font-semibold text-xl text-[#131318] mb-4 ">
+              Training Ground
+            </h3>
+            <p class="text-[#131318] opacity-60 text-center">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Program Sections -->
+      <section>
+        <div>
+          <!-- Program Sections heading -->
+          <div
+            class="flex flex-col items-center border-dashed border-y-2 py-12 border-[#13131221]"
+          >
+            <h3 class="font-extrabold text-4xl">Program Sections</h3>
+            <p class="font-medium mt-6">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
+          </div>
+          <!-- Program Sections grid -->
+          <div class="relative grid grid-cols-2 gap-6 mt-12">
+            <!-- Program Sections image-1 -->
+            <div class="relative col-span-1  " >
+              <div class="relative ">
+                <img class="w-full h-auto" src="image/2.png" alt="" />
+              </div>
+              <div class=" absolute text-white bottom-10 left-10  ">
+                <h3 class="font-extrabold text-3xl mb-4">Junior Program</h3>
+                <p class="font-medium mb-5 max-w-[500px]">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna. Id et sed euismod natoque
+                  amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <button
+                  class="btn bg-button-main text-white hover:text-black border-none"
+                >
+                  Register Now!
+                </button>
+              </div>
+            </div>
+            <!-- Program Sections image-2 -->
+            <div class="relative col-span-1 ">
+              <div>
+                <img class="w-full h-auto" src="image/3.png" alt="" />
+              </div>
+              <div class="absolute text-white bottom-10 left-10  ">
+                <h3 class="font-extrabold text-3xl mb-4">Junior Program</h3>
+                <p class="font-medium mb-5 max-w-[500px]">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna. Id et sed euismod natoque
+                  amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <button
+                  class="btn bg-button-main text-white hover:text-black border-none"
+                >
+                  Register Now!
+                </button>
+              </div>
+            </div>
+            <!-- Program Sections image-3 -->
+           <div class="relative col-span-2">
+            <div>
+              <img class="w-full h-auto" src="image/4.png" alt="" />
+            </div>
+            <div class="absolute text-white bottom-10 left-10  ">
+              <h3 class="font-extrabold text-3xl mb-4">Junior Program</h3>
+              <p class="font-medium mb-5 max-w-[500px]">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button
+                class="btn bg-button-main text-white hover:text-black border-none"
+              >
+                Register Now!
+              </button>
+            </div>
+           </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
