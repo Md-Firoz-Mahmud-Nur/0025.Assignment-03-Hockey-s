@@ -20,6 +20,7 @@
               clifford: "#da373d",
               "button-main": "#FF4240",
               "black-main": "#131318",
+              "black-main-60": "#13131899",
 
             },
           },
@@ -45,7 +46,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="font-manrope">
+  <body class="font-manrope mx-5 ">
     <header class="container mx-auto relative">
       <!-- navbar -->
       <div class="navbar bg-base-100">
@@ -104,7 +105,7 @@
         <div id="slide1" class="carousel-item relative w-full">
           <img src="image/1.png" class="w-full" />
           <div
-            class="absolute flex gap-4 transform sm:translate-x-1/2 lg:translate-x-0 -translate-y-1/2 left-5 right-5 bottom-0"
+            class="absolute flex gap-4 transform sm:translate-x-1/2  lg:translate-x-0 -translate-y-1/2 left-5 right-5 bottom-0"
           >
             <a
               href="#slide2"
@@ -140,18 +141,17 @@
       </div>
       <!-- banner text -->
       <div
-        class="sm:relative lg:absolute transform -translate-y-1/2 right-5  -bottom-0 "
+        class="relative lg:absolute lg:transform lg:-translate-y-1/2 lg:right-5  lg:-bottom-0 "
       >
         <!--text -->
         <div
-          class="bg-[#131318] text-white relative p-8 max-w-[566px] rounded-2xl"
+          class="bg-[#131318] text-white relative p-8 lg:max-w-[566px] rounded-2xl mb-10 lg:mb-0"
         >
           <h3 class="text-2xl font-extrabold mb-4">
             Meet all the heroes from the field
           </h3>
           <p>
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-            turpis placerat dolor. Purus urna in sit nullam proin.
+            Discover the remarkable stories of every hero who graces the field with passion and dedication.
           </p>
         </div>
       </div>
@@ -164,14 +164,13 @@
           class="flex flex-col items-center border-dashed border-y-2 py-12 border-[#13131221]"
         >
           <h3 class="font-extrabold text-4xl">Professional Hockeys Club</h3>
-          <p class="font-medium mt-6 max-w-[600px] text-center">
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-            turpis placerat dolor. Purus urna in sit nullam proin.
+          <p class="font-medium mt-6 max-w-[600px] text-center text-black-main-60">
+           Experience the excellence of our professional hockey club, where skill, teamwork, and dedication converge for victory.
           </p>
         </div>
 
         <!-- Progress Circle -->
-        <div class="flex flex-row my-12 gap-8 ">
+        <div class="flex flex-col lg:flex-row  my-12 gap-8 ">
           <!-- Progress Circle card-1 -->
           <div class="flex flex-col items-center   ">
             <div
@@ -188,8 +187,8 @@
             <h3 class="font-semibold text-xl text-[#131318] mb-4 ">
               Prayer Facility
             </h3>
-            <p class="text-[#131318] opacity-60 text-center">
-              Amet consectetur. Condimentum dignissim adipiscing .
+            <p class="text-[#131318] opacity-60 text-center ">
+              Dedicated space for peaceful prayer and reflection.
             </p>
           </div>
           <!-- Progress Circle card-2 -->
@@ -209,8 +208,7 @@
               Experienced Coach
             </h3>
             <p class="text-[#131318] opacity-60 text-center">
-              Amet consectetur. Condimentum dignissim adipiscing .
-            </p>
+Seasoned coach, guiding athletes to excellence with expertise and passion.            </p>
           </div>
           <!-- Progress Circle card-3 -->
           <div class="flex flex-col items-center   ">
@@ -229,7 +227,7 @@
               Senior Player
             </h3>
             <p class="text-[#131318] opacity-60 text-center">
-              Amet consectetur. Condimentum dignissim adipiscing .
+              Veteran player, bringing skill and leadership to every game.
             </p>
           </div>
           <!-- Progress Circle card-4 -->
@@ -249,7 +247,7 @@
               Training Ground
             </h3>
             <p class="text-[#131318] opacity-60 text-center">
-              Amet consectetur. Condimentum dignissim adipiscing .
+              Optimal training ground for honing skills and achieving peak performance.
             </p>
           </div>
         </div>
@@ -261,13 +259,12 @@
           class="flex flex-col items-center border-dashed border-y-2 py-12 border-[#13131221]"
         >
           <h3 class="font-extrabold text-4xl">Program Sections</h3>
-          <p class="font-medium mt-6 max-w-[600px] text-center">
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-            turpis placerat dolor. Purus urna in sit nullam proin.
+          <p class="font-medium mt-6 max-w-[600px] text-center text-black-main-60">
+            Explore our diverse program sections, each tailored to enhance skills and foster growth in various areas.
           </p>
         </div>
         <!-- Program Sections grid -->
-        <div class="relative grid grid-cols-2 gap-6 mt-12">
+        <div class="relative sm:mx-5 grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12">
           <!-- Program Sections image-1 -->
           <div class="relative col-span-1  ">
             <div class="relative overflow-hidden rounded-2xl">
@@ -280,12 +277,10 @@
                 class="w-full h-full object-cover rounded"
               />
             </div>
-            <div class=" absolute text-white bottom-10 left-10  ">
-              <h3 class="font-extrabold text-3xl mb-4">Junior Program</h3>
-              <p class="font-medium mb-5 max-w-[500px]">
-                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                elit enim sagittis turpis in magna. Id et sed euismod natoque
-                amet nunc morbi nulla. Tortor congue sed et in.
+            <div class=" absolute text-white bottom-6 left-6 lg:bottom-10 lg:left-10  ">
+              <h3 class="font-extrabold text-xl lg:text-3xl mb-4">Junior Program</h3>
+              <p class="font-medium mb-1 lg:mb-5 pr-3 lg:max-w-[500px]">
+                Nurture young talents with our comprehensive junior program, fostering skill development, teamwork, and a lifelong love for the game of hockey.
               </p>
               <button
                 class="btn bg-button-main text-white hover:text-black border-none"
@@ -306,12 +301,10 @@
                 class="w-full h-full object-cover rounded"
               />
             </div>
-            <div class="absolute text-white bottom-10 left-10  ">
-              <h3 class="font-extrabold text-3xl mb-4">Teenager Program</h3>
-              <p class="font-medium mb-5 max-w-[500px]">
-                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                elit enim sagittis turpis in magna. Id et sed euismod natoque
-                amet nunc morbi nulla. Tortor congue sed et in.
+            <div class="absolute text-white bottom-6 left-6 lg:bottom-10 lg:left-10  ">
+              <h3 class="font-extrabold text-xl lg:text-3xl mb-4">Teenager Program</h3>
+              <p class="font-medium mb-1 lg:mb-5 pr-3 lg:max-w-[500px]">
+                Energize teen potential. Our program shapes skills and camaraderie, empowering teenagers on their journey to athletic excellence and personal growth.
               </p>
               <button
                 class="btn bg-button-main text-white hover:text-black border-none"
@@ -321,7 +314,7 @@
             </div>
           </div>
           <!-- Program Sections image-3 -->
-          <div class="relative col-span-2">
+          <div class="relative col-span-1 lg:col-span-2">
             <div class="relative overflow-hidden rounded-2xl">
               <div
                 class="absolute inset-0 bg-gray-900 bg-opacity-50 rounded"
@@ -329,16 +322,13 @@
               <img
                 src="image/4.png"
                 alt="Your Image"
-                class="w-full h-full object-cover rounded"
+                class="h-full w-full object-cover rounded"
               />
             </div>
-            <div class="absolute text-white bottom-10 left-10  ">
-              <h3 class="font-extrabold text-3xl mb-4">Professional Program</h3>
-              <p class="font-medium mb-5 max-w-[500px]">
-                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                elit enim sagittis turpis in magna. Id et sed euismod natoque
-                amet nunc morbi nulla. Tortor congue sed et in.
-              </p>
+            <div class="absolute text-white bottom-6 left-6 lg:bottom-10 lg:left-10  ">
+              <h3 class="font-extrabold text-xl lg:text-3xl mb-4">Professional Program</h3>
+              <p class="font-medium mb-1 lg:mb-5 pr-3 lg:max-w-[500px]">
+Elite program cultivating excellence, skill, and success in every professional endeavor.              </p>
               <button
                 class="btn bg-button-main text-white hover:text-black border-none"
               >
@@ -355,19 +345,18 @@
           class="flex flex-col items-center border-dashed border-y-2 py-12 border-[#13131221] mt-24 mb-12"
         >
           <h3 class="font-extrabold text-4xl">Our New Products</h3>
-          <p class="font-medium mt-6 max-w-[600px] text-center">
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-            turpis placerat dolor. Purus urna in sit nullam proin.
+          <p class="font-medium mt-6 max-w-[600px] text-center text-black-main-60">
+            Introducing our latest products, a fusion of innovation and quality, designed to elevate your experience.
           </p>
         </div>
         <!-- Our New Products cards -->
-        <div class="grid grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <!-- Our New Products card-1 -->
-          <div class="card card-side border-2 border-[#1313181A] p-6">
+          <div class="flex flex-col lg:flex-row card card-side border-2 border-[#1313181A] p-6">
             <figure>
-              <img src="image/5.png" alt="" />
+              <img class="w-full h-auto" src="image/5.png" alt="" />
             </figure>
-            <div class="card-body">
+            <div class="card-body pl-0 lg:pl-8">
               <div class="flex items-center gap-2 ">
                 <i class="fa-solid fa-star text-yellow-400"></i>
                 <p class="flex-grow-0">5.0</p>
@@ -376,25 +365,27 @@
                 <i class="fa-regular fa-heart"></i>
                 <p class="flex-grow-0">200</p>
               </div>
-              <h2 class="card-title">World Cup Flags Football</h2>
-              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+              <h2 class="card-title font-extrabold text-xl">World Cup Football Jersey</h2>
+              <p class="font-medium text-black-main-60">Explore stylish World Cup football jerseys, representing your team pride.</p>
               <!-- price -->
-              <div class="flex items-center justify-between">
+              <div class="flex lg:flex-row flex-col lg:items-center justify-between">
                 <p class="text-button-main font-extrabold text-lg">
                   Price - $22.00
                 </p>
 
-                <i class="fa-solid fa-cart-plus text-[#89898B] mr-2"></i>
+               <div class="flex items-center">
+                 <i class="fa-solid fa-cart-plus text-[#89898B] mr-2"></i>
                 <p class="flex-grow-0">Delivery Fee : Free</p>
+               </div>
               </div>
             </div>
           </div>
           <!-- Our New Products card-2 -->
-          <div class="card card-side border-2 border-[#1313181A] p-6">
+          <div class="flex flex-col lg:flex-row card card-side border-2 border-[#1313181A] p-6">
             <figure>
-              <img src="image/6.png" alt="" />
+              <img class="w-full h-auto" src="image/6.png" alt="" />
             </figure>
-            <div class="card-body">
+            <div class="card-body pl-0 lg:pl-8">
               <div class="flex items-center gap-2 ">
                 <i class="fa-solid fa-star text-yellow-400"></i>
                 <p class="flex-grow-0">5.0</p>
@@ -403,25 +394,27 @@
                 <i class="fa-regular fa-heart"></i>
                 <p class="flex-grow-0">200</p>
               </div>
-              <h2 class="card-title">World Cup Flags Football</h2>
-              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+              <h2 class="card-title font-extrabold text-xl">World Cup Football Green</h2>
+              <p class="font-medium text-black-main-60">Vibrant green represents team spirit on the World Cup stage.</p>
               <!-- price -->
-              <div class="flex items-center justify-between">
+              <div class="flex lg:flex-row flex-col lg:items-center justify-between">
                 <p class="text-button-main font-extrabold text-lg">
                   Price - $22.00
                 </p>
 
-                <i class="fa-solid fa-cart-plus text-[#89898B] mr-2"></i>
+               <div class="flex items-center">
+                 <i class="fa-solid fa-cart-plus text-[#89898B] mr-2"></i>
                 <p class="flex-grow-0">Delivery Fee : Free</p>
+               </div>
               </div>
             </div>
           </div>
           <!-- Our New Products card-3 -->
-          <div class="card card-side border-2 border-[#1313181A] p-6">
+          <div class="flex flex-col lg:flex-row card card-side border-2 border-[#1313181A] p-6">
             <figure>
-              <img src="image/7.png" alt="" />
+              <img class="w-full h-auto" src="image/7.png" alt="" />
             </figure>
-            <div class="card-body">
+            <div class="card-body pl-0 lg:pl-8">
               <div class="flex items-center gap-2 ">
                 <i class="fa-solid fa-star text-yellow-400"></i>
                 <p class="flex-grow-0">5.0</p>
@@ -430,25 +423,27 @@
                 <i class="fa-regular fa-heart"></i>
                 <p class="flex-grow-0">200</p>
               </div>
-              <h2 class="card-title">World Cup Flags Football</h2>
-              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+              <h2 class="card-title font-extrabold text-xl">Yellow Cap</h2>
+              <p class="font-medium text-black-main-60">Stand out with the iconic yellow cap, a symbol of distinction.</p>
               <!-- price -->
-              <div class="flex items-center justify-between">
+              <div class="flex lg:flex-row flex-col lg:items-center justify-between">
                 <p class="text-button-main font-extrabold text-lg">
                   Price - $22.00
                 </p>
 
-                <i class="fa-solid fa-cart-plus text-[#89898B] mr-2"></i>
+               <div class="flex items-center">
+                 <i class="fa-solid fa-cart-plus text-[#89898B] mr-2"></i>
                 <p class="flex-grow-0">Delivery Fee : Free</p>
+               </div>
               </div>
             </div>
           </div>
           <!-- Our New Products card-4 -->
-          <div class="card card-side border-2 border-[#1313181A] p-6">
+          <div class="flex flex-col lg:flex-row card card-side border-2 border-[#1313181A] p-6">
             <figure>
-              <img src="image/8.png" alt="" />
+              <img class="w-full h-auto" src="image/8.png" alt="" />
             </figure>
-            <div class="card-body">
+            <div class="card-body pl-0 lg:pl-8">
               <div class="flex items-center gap-2 ">
                 <i class="fa-solid fa-star text-yellow-400"></i>
                 <p class="flex-grow-0">5.0</p>
@@ -457,25 +452,27 @@
                 <i class="fa-regular fa-heart"></i>
                 <p class="flex-grow-0">200</p>
               </div>
-              <h2 class="card-title">World Cup Flags Football</h2>
-              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+              <h2 class="card-title font-extrabold text-xl">Special Blue Jersey</h2>
+              <p class="font-medium text-black-main-60">Elevate your style with our special edition blue jersey design.</p>
               <!-- price -->
-              <div class="flex items-center justify-between">
+              <div class="flex lg:flex-row flex-col lg:items-center justify-between">
                 <p class="text-button-main font-extrabold text-lg">
-                  Price - $22.00
+                  Price - $29.00
                 </p>
 
-                <i class="fa-solid fa-cart-plus text-[#89898B] mr-2"></i>
+               <div class="flex items-center">
+                 <i class="fa-solid fa-cart-plus text-[#89898B] mr-2"></i>
                 <p class="flex-grow-0">Delivery Fee : Free</p>
+               </div>
               </div>
             </div>
           </div>
           <!-- Our New Products card-5 -->
-          <div class="card card-side border-2 border-[#1313181A] p-6">
+          <div class="flex flex-col lg:flex-row card card-side border-2 border-[#1313181A] p-6">
             <figure>
-              <img src="image/9.png" alt="" />
+              <img class="w-full h-auto" src="image/9.png" alt="" />
             </figure>
-            <div class="card-body">
+            <div class="card-body pl-0 lg:pl-8">
               <div class="flex items-center gap-2 ">
                 <i class="fa-solid fa-star text-yellow-400"></i>
                 <p class="flex-grow-0">5.0</p>
@@ -484,25 +481,27 @@
                 <i class="fa-regular fa-heart"></i>
                 <p class="flex-grow-0">200</p>
               </div>
-              <h2 class="card-title">World Cup Flags Football</h2>
-              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+              <h2 class="card-title font-extrabold text-xl">Green Helmet</h2>
+              <p class="font-medium text-black-main-60">Stay protected in our sleek and durable green helmet design.</p>
               <!-- price -->
-              <div class="flex items-center justify-between">
+              <div class="flex lg:flex-row flex-col lg:items-center justify-between">
                 <p class="text-button-main font-extrabold text-lg">
                   Price - $22.00
                 </p>
 
-                <i class="fa-solid fa-cart-plus text-[#89898B] mr-2"></i>
+               <div class="flex items-center">
+                 <i class="fa-solid fa-cart-plus text-[#89898B] mr-2"></i>
                 <p class="flex-grow-0">Delivery Fee : Free</p>
+               </div>
               </div>
             </div>
           </div>
           <!-- Our New Products card-6 -->
-          <div class="card card-side border-2 border-[#1313181A] p-6">
+          <div class="flex flex-col lg:flex-row card card-side border-2 border-[#1313181A] p-6">
             <figure>
-              <img src="image/10.png" alt="" />
+              <img class="w-full h-auto" src="image/10.png" alt="" />
             </figure>
-            <div class="card-body">
+            <div class="card-body pl-0 lg:pl-8">
               <div class="flex items-center gap-2 ">
                 <i class="fa-solid fa-star text-yellow-400"></i>
                 <p class="flex-grow-0">5.0</p>
@@ -511,19 +510,22 @@
                 <i class="fa-regular fa-heart"></i>
                 <p class="flex-grow-0">200</p>
               </div>
-              <h2 class="card-title">World Cup Flags Football</h2>
-              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+              <h2 class="card-title font-extrabold text-xl">Premium Football</h2>
+              <p class="font-medium text-black-main-60">Experience the game at its best with our premium football.</p>
               <!-- price -->
-              <div class="flex items-center justify-between">
+              <div class="flex lg:flex-row flex-col lg:items-center justify-between">
                 <p class="text-button-main font-extrabold text-lg">
-                  Price - $22.00
+                  Price - $99.00
                 </p>
 
-                <i class="fa-solid fa-cart-plus text-[#89898B] mr-2"></i>
+               <div class="flex items-center">
+                 <i class="fa-solid fa-cart-plus text-[#89898B] mr-2"></i>
                 <p class="flex-grow-0">Delivery Fee : Free</p>
+               </div>
               </div>
             </div>
           </div>
+         
         </div>
       </section>
       <!-- Clients Question -->
@@ -533,13 +535,12 @@
           class="flex flex-col items-center border-dashed border-y-2 py-12 border-[#13131221] mt-24 mb-12"
         >
           <h3 class="font-extrabold text-4xl">Clients Question</h3>
-          <p class="font-medium mt-6 max-w-[600px] text-center">
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-            turpis placerat dolor. Purus urna in sit nullam proin.
+          <p class="font-medium mt-6 max-w-[600px] text-center text-black-main-60">
+            Common queries from our valued clients, addressing your questions to ensure a seamless and informed experience.
           </p>
         </div>
         <!-- accordion section -->
-        <div class="flex justify-between gap-10 p-9">
+        <div class="flex flex-col lg:flex-row justify-between gap-10 p-9">
           <img src="image/11.png" alt="" />
 
           <!-- 6 Accordion -->
@@ -550,8 +551,7 @@
               <div class="collapse-title text-xl font-bold">Our Equipment</div>
               <div class="collapse-content">
                 <p class="text-[#13131899]">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim sagittis turpis in magna.
+                  Discover our premium equipment – crafted with precision, designed for excellence to elevate your performance.
                 </p>
               </div>
             </div>
@@ -563,8 +563,7 @@
               </div>
               <div class="collapse-content">
                 <p class="text-[#13131899]">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim sagittis turpis in magna.
+                 Elite hockey training for peak performance. Elevate your skills now.
                 </p>
               </div>
             </div>
@@ -576,8 +575,7 @@
               </div>
               <div class="collapse-content">
                 <p class="text-[#13131899]">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim sagittis turpis in magna.
+                  Tailored private lessons for personalized growth, mastering skills at your pace.
                 </p>
               </div>
             </div>
@@ -587,8 +585,7 @@
               <div class="collapse-title text-xl font-bold">Ski Touring</div>
               <div class="collapse-content">
                 <p class="text-[#13131899]">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim sagittis turpis in magna.
+                  Embark on thrilling ski touring adventures. Conquer slopes, embrace nature's beauty.
                 </p>
               </div>
             </div>
@@ -598,19 +595,17 @@
               <div class="collapse-title text-xl font-bold">Booking</div>
               <div class="collapse-content">
                 <p class="text-[#13131899]">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim sagittis turpis in magna.
+                  Secure your spot now. Easy booking for a seamless experience.
                 </p>
               </div>
             </div>
             <!-- Accordion no-6 -->
             <div class="collapse collapse-plus flex-grow">
               <input type="radio" name="my-accordion-3" checked="checked" />
-              <div class="collapse-title text-xl font-bold">Pricings</div>
+              <div class="collapse-title text-xl font-bold">Pricing</div>
               <div class="collapse-content">
                 <p class="text-[#13131899]">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim sagittis turpis in magna.
+                  Transparent pricing. Choose a plan that suits your needs and budget.
                 </p>
               </div>
             </div>
@@ -624,13 +619,12 @@
           class="flex flex-col items-center border-dashed border-y-2 py-12 border-[#13131221] mt-24 mb-12"
         >
           <h3 class="font-extrabold text-4xl">Get In Touch</h3>
-          <p class="font-medium mt-6 max-w-[600px] text-center">
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-            turpis placerat dolor. Purus urna in sit nullam proin.
+          <p class="font-medium mt-6 max-w-[600px] text-center text-black-main-60">
+            Connect with us easily. Reach out and let's start a conversation. Your inquiries matter to us.
           </p>
         </div>
         <!-- contact and form -->
-        <div class="flex gap-6 ">
+        <div class="flex  flex-col lg:flex-row gap-6 ">
           <!-- contact -->
           <div
             class="flex flex-col gap-6 border-2 border-[#1313181A] rounded-2xl p-12"
@@ -665,7 +659,7 @@
             </div>
           </div>
           <!-- form -->
-          <div class=" grid grid-cols-2 gap-6 flex-grow content-between">
+          <div class=" grid grid-cols-1 lg:grid-cols-2 gap-6 flex-grow content-between ">
             <!-- your name -->
             <div class="flex-shrink mb-2">
               <h3 class="text-xl font-bold text-black-main mb-4 ">Your Name</h3>
@@ -713,7 +707,7 @@
               />
             </div>
             <!-- Message -->
-            <div class=" col-span-2 flex-grow">
+            <div class=" col-span-1 lg:col-span-2 flex-grow">
               <h3 class="text-xl font-bold text-black-main mb-4">Message</h3>
               <textarea
                 class="p-5 rounded-xl bg-[#13131808] w-full h-[275px] "
@@ -723,7 +717,7 @@
               ></textarea>
             </div>
             <!-- Send Message -->
-            <div class="col-span-2">
+            <div class=" col-span-1 lg:col-span-2">
               <button
                 class="btn bg-button-main text-white hover:text-black border-none w-full"
               >
@@ -745,17 +739,17 @@
       </section>
     </main>
     <!-- footer start -->
-    <footer class=" py-24 bg-black-main text-white ">
-      <div class="footer container mx-auto">
-        <aside>
+    <footer class=" py-24 bg-black-main text-white -mx-5">
+      <div class="footer container mx-auto grid grid-cols-2 lg:flex lg:justify-between">
+        <aside class="col-span-2 flex flex-col items-center lg:items-start">
           <h3 class="font-extrabold text-3xl mb-4">Get In Touch</h3>
-          <p class="max-w-[330px]  opacity-60">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          <p class="text-center lg:text-start lg:max-w-[330px]  opacity-60">Connect with us easily. Reach out and let's start a conversation. Your inquiries matter to us. </p>
           <div  > <i class="fa-regular fa-envelope text-red-500 mr-4 "></i> <span class="opacity-60">hockeys@support.com</span>  </div>
           <div > 
             <i class="fa-solid fa-phone text-red-500 mr-4"></i>
           </i> <span class="opacity-60">(+62) 123-321-543</span></div>
         </aside> 
-        <nav>
+        <nav class="flex flex-col items-center lg:items-start">
           <header class="footer-title opacity-100">Company</header> 
           <a class="link link-hover opacity-60">About us
             </a>
@@ -768,14 +762,14 @@
           <a class="link link-hover opacity-60">Legal Notice
             </a>
         </nav> 
-        <nav>
+        <nav class="flex flex-col items-center lg:items-start">
           <header class="footer-title opacity-100">Support</header> 
           <a class="link link-hover opacity-60">Help Center </a>
           <a class="link link-hover opacity-60">FAQ </a>
           <a class="link link-hover opacity-60">Ticket Support </a>
           <a class="link link-hover opacity-60">Contact Us</a>
         </nav> 
-        <nav>
+        <nav class="col-span-2 flex flex-col items-center lg:items-start ">
           <header class="footer-title opacity-100">Services</header> 
           <a class="link link-hover opacity-60">Academy
             </a>
@@ -789,5 +783,7 @@
         </nav>
       </div>
     </footer>
+   
+
   </body>
 </html>
