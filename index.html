@@ -307,7 +307,7 @@
               />
             </div>
             <div class="absolute text-white bottom-10 left-10  ">
-              <h3 class="font-extrabold text-3xl mb-4">Junior Program</h3>
+              <h3 class="font-extrabold text-3xl mb-4">Teenager Program</h3>
               <p class="font-medium mb-5 max-w-[500px]">
                 Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
                 elit enim sagittis turpis in magna. Id et sed euismod natoque
@@ -333,7 +333,7 @@
               />
             </div>
             <div class="absolute text-white bottom-10 left-10  ">
-              <h3 class="font-extrabold text-3xl mb-4">Junior Program</h3>
+              <h3 class="font-extrabold text-3xl mb-4">Professional Program</h3>
               <p class="font-medium mb-5 max-w-[500px]">
                 Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
                 elit enim sagittis turpis in magna. Id et sed euismod natoque
@@ -543,7 +543,7 @@
           <img src="image/11.png" alt="" />
 
           <!-- 6 Accordion -->
-          <div class="w-full h-auto">
+          <div class="w-full h-auto flex flex-col justify-between">
             <!-- Accordion no-1 -->
             <div class="collapse collapse-plus flex-grow">
               <input type="radio" name="my-accordion-3" checked="checked" />
@@ -630,7 +630,7 @@
           </p>
         </div>
         <!-- contact and form -->
-        <div class="flex ">
+        <div class="flex gap-6 ">
           <!-- contact -->
           <div
             class="flex flex-col gap-6 border-2 border-[#1313181A] rounded-2xl p-12"
@@ -665,12 +665,12 @@
             </div>
           </div>
           <!-- form -->
-          <div class=" grid grid-cols-2 gap-6">
+          <div class=" grid grid-cols-2 gap-6 flex-grow content-between">
             <!-- your name -->
-            <div>
-              <h3 class="text-xl font-bold text-black-main mb-4">Your Name</h3>
+            <div class="flex-shrink mb-2">
+              <h3 class="text-xl font-bold text-black-main mb-4 ">Your Name</h3>
               <input
-                class="p-5 rounded-xl bg-[#13131808]"
+                class="p-5 rounded-xl bg-[#13131808] w-full"
                 type="text"
                 name=""
                 id=""
@@ -678,10 +678,10 @@
               />
             </div>
             <!-- Your Email -->
-            <div>
+            <div class="flex-shrink mb-2">
               <h3 class="text-xl font-bold text-black-main mb-4">Your Email</h3>
               <input
-                class="p-5 rounded-xl bg-[#13131808]"
+                class="p-5 rounded-xl bg-[#13131808] w-full"
                 type="email"
                 name=""
                 id=""
@@ -689,10 +689,10 @@
               />
             </div>
             <!-- Subject -->
-            <div>
+            <div class="flex-shrink">
               <h3 class="text-xl font-bold text-black-main mb-4">Subject</h3>
               <input
-                class="p-5 rounded-xl bg-[#13131808]"
+                class="p-5 rounded-xl bg-[#13131808]  w-full"
                 type="text"
                 name=""
                 id=""
@@ -700,24 +700,94 @@
               />
             </div>
             <!-- Phone Number -->
-            <div>
+            <div class="flex-shrink">
               <h3 class="text-xl font-bold text-black-main mb-4">
                 Phone Number
               </h3>
               <input
-                class="p-5 rounded-xl bg-[#13131808]"
+                class="p-5 rounded-xl bg-[#13131808]  w-full"
                 type="email"
                 name=""
                 id=""
                 placeholder="Enter your phone number"
               />
             </div>
+            <!-- Message -->
+            <div class=" col-span-2 flex-grow">
+              <h3 class="text-xl font-bold text-black-main mb-4">Message</h3>
+              <textarea
+                class="p-5 rounded-xl bg-[#13131808] w-full h-[275px] "
+                name=""
+                id=""
+                placeholder="Write your message"
+              ></textarea>
+            </div>
+            <!-- Send Message -->
+            <div class="col-span-2">
+              <button
+                class="btn bg-button-main text-white hover:text-black border-none w-full"
+              >
+                Send Message
+              </button>
+            </div>
           </div>
         </div>
         <!-- Social Media -->
-        <div></div>
+        <div class="my-12 rounded-xl bg-[#13131808] py-9 text-center">
+          <h3 class="font-extrabold text-2xl mb-6">Social Media</h3>
+          <div class="flex justify-center gap-6">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <!-- footer start -->
+    <footer class=" py-24 bg-black-main text-white ">
+      <div class="footer container mx-auto">
+        <aside>
+          <h3 class="font-extrabold text-3xl mb-4">Get In Touch</h3>
+          <p class="max-w-[330px]  opacity-60">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          <div  > <i class="fa-regular fa-envelope text-red-500 mr-4 "></i> <span class="opacity-60">hockeys@support.com</span>  </div>
+          <div > 
+            <i class="fa-solid fa-phone text-red-500 mr-4"></i>
+          </i> <span class="opacity-60">(+62) 123-321-543</span></div>
+        </aside> 
+        <nav>
+          <header class="footer-title opacity-100">Company</header> 
+          <a class="link link-hover opacity-60">About us
+            </a>
+          <a class="link link-hover opacity-60">Leadership
+            </a>
+          <a class="link link-hover opacity-60">Careers
+            </a>
+          <a class="link link-hover opacity-60">News & Article
+          </a>
+          <a class="link link-hover opacity-60">Legal Notice
+            </a>
+        </nav> 
+        <nav>
+          <header class="footer-title opacity-100">Support</header> 
+          <a class="link link-hover opacity-60">Help Center </a>
+          <a class="link link-hover opacity-60">FAQ </a>
+          <a class="link link-hover opacity-60">Ticket Support </a>
+          <a class="link link-hover opacity-60">Contact Us</a>
+        </nav> 
+        <nav>
+          <header class="footer-title opacity-100">Services</header> 
+          <a class="link link-hover opacity-60">Academy
+            </a>
+          <a class="link link-hover opacity-60">Group Lesson
+           </a>
+          <a class="link link-hover opacity-60"> Private Lesson
+            </a>
+          <a class="link link-hover opacity-60">Hockeys for kids
+            </a>
+          <a class="link link-hover opacity-60">Hockeys for Adult</a>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
