@@ -52,7 +52,7 @@
       <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden pl-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -79,7 +79,7 @@
               <li><a>Contact</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost gap-0 font-extrabold text-4xl pl-0"
+          <a class="btn btn-ghost gap-0 font-extrabold  text-2xl lg:text-4xl pl-0"
             >Hockey<span class="text-button-main">’</span>s</a
           >
         </div>
@@ -93,22 +93,22 @@
           </ul>
         </div>
         <div class="navbar-end gap-6">
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-magnifying-glass hidden md:inline lg:inline " ></i>
           <a class="btn bg-button-main text-white hover:text-black"
             >Get Ticket</a
           >
         </div>
       </div>
       <!-- Banner content -->
-      <div class="carousel w-full my-14">
+      <div class="carousel w-full my-7 md:my-14 lg:my-14">
         <!-- Slide 1 -->
         <div id="slide1" class="carousel-item relative w-full">
           <img src="image/1.png" class="w-full" />
           <div
-            class="absolute flex gap-4 transform sm:translate-x-1/2  lg:translate-x-0 -translate-y-1/2 left-5 right-5 bottom-0"
+            class="absolute flex gap-4 transform -translate-x-1/2 left-1/2  lg:translate-x-0 -translate-y-1/2 lg:left-5 lg:right-5 bottom-0"
           >
             <a
-              href="#slide2"
+              href="#slide3"
               class="btn btn-circle text-white bg-black hover:text-black border-none"
               >❮</a
             >
@@ -124,10 +124,28 @@
         <div id="slide2" class="carousel-item relative w-full">
           <img src="image/4.png" class="w-full" />
           <div
-            class="absolute flex gap-4 transform -translate-y-1/2 left-5 right-5 bottom-0"
+            class="absolute flex gap-4 transform -translate-x-1/2 left-1/2  lg:translate-x-0 -translate-y-1/2 lg:left-5 lg:right-5 bottom-0"
           >
             <a
               href="#slide1"
+              class="btn btn-circle text-white bg-black hover:text-black border-none"
+              >❮</a
+            >
+            <a
+              href="#slide3"
+              class="btn btn-circle text-white bg-black hover:text-black border-none"
+              >❯</a
+            >
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="image/001.jpg" class="w-full" />
+          <div
+            class="absolute flex gap-4 transform -translate-x-1/2 left-1/2  lg:translate-x-0 -translate-y-1/2 lg:left-5 lg:right-5 bottom-0"
+          >
+            <a
+              href="#slide2"
               class="btn btn-circle text-white bg-black hover:text-black border-none"
               >❮</a
             >
@@ -322,7 +340,7 @@ Seasoned coach, guiding athletes to excellence with expertise and passion.      
               <img
                 src="image/4.png"
                 alt="Your Image"
-                class="h-full w-full object-cover rounded"
+                class="h-[200px] w-full md:h-full lg:h-full object-cover rounded"
               />
             </div>
             <div class="absolute text-white bottom-6 left-6 lg:bottom-10 lg:left-10  ">
@@ -741,7 +759,7 @@ Elite program cultivating excellence, skill, and success in every professional e
     <!-- footer start -->
     <footer class=" py-24 bg-black-main text-white -mx-5">
       <div class="footer container mx-auto grid grid-cols-2 lg:flex lg:justify-between">
-        <aside class="col-span-2 flex flex-col items-center lg:items-start">
+        <aside class="col-span-2 flex flex-col items-center lg:items-start  w-full">
           <h3 class="font-extrabold text-3xl mb-4">Get In Touch</h3>
           <p class="text-center lg:text-start lg:max-w-[330px]  opacity-60">Connect with us easily. Reach out and let's start a conversation. Your inquiries matter to us. </p>
           <div  > <i class="fa-regular fa-envelope text-red-500 mr-4 "></i> <span class="opacity-60">hockeys@support.com</span>  </div>
@@ -749,7 +767,7 @@ Elite program cultivating excellence, skill, and success in every professional e
             <i class="fa-solid fa-phone text-red-500 mr-4"></i>
           </i> <span class="opacity-60">(+62) 123-321-543</span></div>
         </aside> 
-        <nav class="flex flex-col items-center lg:items-start">
+        <nav class="flex flex-col items-center lg:items-start  w-full">
           <header class="footer-title opacity-100">Company</header> 
           <a class="link link-hover opacity-60">About us
             </a>
@@ -762,14 +780,14 @@ Elite program cultivating excellence, skill, and success in every professional e
           <a class="link link-hover opacity-60">Legal Notice
             </a>
         </nav> 
-        <nav class="flex flex-col items-center lg:items-start">
+        <nav class="flex flex-col items-center lg:items-start  w-full">
           <header class="footer-title opacity-100">Support</header> 
           <a class="link link-hover opacity-60">Help Center </a>
           <a class="link link-hover opacity-60">FAQ </a>
           <a class="link link-hover opacity-60">Ticket Support </a>
           <a class="link link-hover opacity-60">Contact Us</a>
         </nav> 
-        <nav class="col-span-2 flex flex-col items-center lg:items-start ">
+        <nav class="col-span-2 flex flex-col items-center lg:items-start w-full" >
           <header class="footer-title opacity-100">Services</header> 
           <a class="link link-hover opacity-60">Academy
             </a>
